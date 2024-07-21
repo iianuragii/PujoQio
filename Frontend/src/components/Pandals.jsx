@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar.jsx'
 import { Box } from '@mui/material'
+import Chatbot from './Chatbot.jsx'
 
 const Pandals = () => {
   return (
@@ -22,6 +23,7 @@ const Pandals = () => {
           <Box sx={{ color: 'white', padding: 2,textAlign:'center', fontSize:'10vh' }}>
             Pujo Pandals
           </Box>
+          <Chatbot/>
         </Box>        
       </>
   )

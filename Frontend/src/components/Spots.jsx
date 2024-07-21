@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar.jsx'
 import { Box, Button } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
+import Chatbot from './Chatbot.jsx'
 
 const Spots = () => {
   const navigate = useNavigate();
@@ -67,6 +68,7 @@ const Spots = () => {
               South Calcutta
             </Button>
           </Box>
+          <Chatbot/>
         </Box>
       </>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar.jsx'
 import { Box } from '@mui/material'
+import Chatbot from './Chatbot.jsx'
 
 const NorthKolkata = () => {
   return (
@@ -17,11 +18,12 @@ const NorthKolkata = () => {
           }}
         >
             <Box sx={{ color: 'white', padding: 2 }}>
-                <Navbar/>
+              <Navbar/>
             </Box>
             <Box sx={{ color: 'white', padding: 2,textAlign:'center', fontSize:'10vh' }}>
-                List of Durga Pujas at North Kolkata
+              List of Durga Pujas at North Kolkata
             </Box>
+            <Chatbot/>
         </Box>        
       </>
     )
