@@ -70,7 +70,7 @@ const Chatbot = () => {
       >
       <Box
         component="img"
-        src="../../funnygifsbox.gif" 
+        src="../../chatbot.gif" 
         alt="Gif Toy"
         sx={{
           position: 'absolute',
