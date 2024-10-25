@@ -4,19 +4,19 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import Navbar from './Navbar.jsx'; // Navbar component
 import Chatbot from './Chatbot.jsx';
-import durgaPujaIcon from '../../public/wallpaper2.webp'; // Import the icon image
+import TridharaIcon from '../../public/Tridhara.jpeg'; // Import the icon image
 import { Box } from '@mui/material';
 
 // Custom marker icon for Durga Puja pandals
 const durgaPujaIconInstance = new L.Icon({
-  iconUrl: durgaPujaIcon,
+  iconUrl: TridharaIcon,
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
   shadowSize: [41, 41],
 });
 
-const SouthKolkata = () => {
+const Pandals = () => {
   const [location, setLocation] = useState(null);
   const [pandals, setPandals] = useState([]);
 
@@ -127,4 +127,4 @@ const SouthKolkata = () => {
   )
 }
 
-export default SouthKolkata;
+export default Pandals;

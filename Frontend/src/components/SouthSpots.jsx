@@ -12,31 +12,31 @@ const SouthKolkata = () => {
       title: "Tridhara Sammelani ",
       image: '../../Tridhara.jpeg',
       address: "Shop Number 76B,Near Deshapriya Park, Satyendranath Mazumder Sarani, Dover Terrace, Kolkata, West Bengal 700025",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5943414187977!2d88.352859775125!3d22.51939827952962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772daca1f653%3A0xdbf590e266b01219!2sTridhara%20Sammilani!5e0!3m2!1sen!2sin!4v1723275949160!5m2!1sen!2sin"
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.590266211489!2d88.35281657512505!3d22.519551079529535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772daca1f653%3A0xdbf590e266b01219!2sTridhara%20Sammilani!5e0!3m2!1sen!2sin!4v1729841753554!5m2!1sen!2sin" 
     },
     {
       title: "Deshopriyo Park ",
-      image: '../../Tridhara.jpeg',
-      address: "Shop Number 76B,Near Deshapriya Park, Satyendranath Mazumder Sarani, Dover Terrace, Kolkata, West Bengal 700025",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5943414187977!2d88.352859775125!3d22.51939827952962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772daca1f653%3A0xdbf590e266b01219!2sTridhara%20Sammilani!5e0!3m2!1sen!2sin!4v1723275949160!5m2!1sen!2sin"
+      image: '../../Deshopriyo.jpg',
+      address: "G993+C9P, Motilal Nehru Rd, Manoharpukur, Kalighat, Kolkata, West Bengal 700029",
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1842.816737766724!2d88.35196583861774!3d22.5179308948827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027731a9a30c5d%3A0x799c6348d9403f4a!2sDeshapriya%20Park%20Durga%20Puja%20Area!5e0!3m2!1sen!2sin!4v1729841577153!5m2!1sen!2sin"
     },
     {
       title: "Singhi Park ",
-      image: '../../Tridhara.jpeg',
-      address: "Shop Number 76B,Near Deshapriya Park, Satyendranath Mazumder Sarani, Dover Terrace, Kolkata, West Bengal 700025",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5943414187977!2d88.352859775125!3d22.51939827952962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772daca1f653%3A0xdbf590e266b01219!2sTridhara%20Sammilani!5e0!3m2!1sen!2sin!4v1723275949160!5m2!1sen!2sin"
+      image: '../../Singhi.jpg',
+      address: "5 Ramani Chatterjee, Dover Ln, Kolkata, West Bengal 700029",
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.555801924562!2d88.36057027512507!3d22.52084327952858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276d5f6fa97af%3A0x310ce7fdfb83ca22!2sSinghi%20Park%20Sarbojanin%20Durga%20Puja%20Committee!5e0!3m2!1sen!2sin!4v1729841612876!5m2!1sen!2sin"
     },
     {
       title: "Ekdalia Evergreen",
-      image: '../../Tridhara.jpeg',
-      address: "Shop Number 76B,Near Deshapriya Park, Satyendranath Mazumder Sarani, Dover Terrace, Kolkata, West Bengal 700025",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5943414187977!2d88.352859775125!3d22.51939827952962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772daca1f653%3A0xdbf590e266b01219!2sTridhara%20Sammilani!5e0!3m2!1sen!2sin!4v1723275949160!5m2!1sen!2sin"
+      image: '../../Ekdalia.webp',
+      address: "15, Ekdalia Rd, Ekdalia, Ballygunge, Kolkata, West Bengal 700019",
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5457892737295!2d88.3639879751251!3d22.521218679528314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276d417b26201%3A0x220c3a4dbd7f651a!2sEkdalia%20Evergreen%20Club!5e0!3m2!1sen!2sin!4v1729841645728!5m2!1sen!2sin"
     },
     {
       title: "Hindustan Park",
-      image: '../../Tridhara.jpeg',
-      address: "Shop Number 76B,Near Deshapriya Park, Satyendranath Mazumder Sarani, Dover Terrace, Kolkata, West Bengal 700025",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5943414187977!2d88.352859775125!3d22.51939827952962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772daca1f653%3A0xdbf590e266b01219!2sTridhara%20Sammilani!5e0!3m2!1sen!2sin!4v1723275949160!5m2!1sen!2sin"
+      image: '../../HindustanPark.jpeg',
+      address: "51/1, Gol Park, Dhakuria, Hindustan Park, Gariahat, Kolkata, West Bengal 700029",
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14742.511929200771!2d88.34838343287649!3d22.518136876293955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772afd3f3ddb%3A0x9480c825c6b6c52e!2sFabindia%20Home%2C%20Hindustan%20Park%2C%20Gariahat!5e0!3m2!1sen!2sin!4v1729841700329!5m2!1sen!2sin"
     },
     // Add more cards as needed
   ];

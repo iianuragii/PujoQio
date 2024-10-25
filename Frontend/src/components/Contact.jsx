@@ -20,9 +20,10 @@ const Contact = () => {
           <Box sx={{ color: 'white', padding: 2 }}>
             <Navbar/>
           </Box >
-          <Box sx={{ color: 'white', padding: 2,textAlign:'center', fontSize:'10vh' }}>
-              Contact
+          <Box sx={{ color: 'white', padding: 2,textAlign:'center', fontSize:'8vh' }}>
+            List of Contacts for every Pujo Pandal Samitis
           </Box>
+
           <Chatbot/>          
       </Box>         
     </>

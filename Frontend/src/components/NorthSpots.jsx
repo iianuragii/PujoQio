@@ -12,31 +12,32 @@ const NorthKolkata = () => {
       title: "Baghbazar Sarbojanin",
       image: '../../Baghbazar.jpg',
       address: "Sovabazar, Baghbazar, Kolkata, West Bengal 700003",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3161906583355!2d88.36340287512765!3d22.60466487946882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02762db2c7e01f%3A0xa953c72eb79fcf18!2sBaghbazar%20Sarbojonin%20Durgotsav!5e0!3m2!1sen!2sin!4v1723274918545!5m2!1sen!2sin"
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14733.873223076951!2d88.35116654239845!3d22.598981016764828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277000443224f%3A0x2b823f451106a0d2!2sBaghbazar%20Sarbojanin%20Durga%20puja!5e0!3m2!1sen!2sin!4v1729840680255!5m2!1sen!2sin" 
     },
     {
       title: "Ahiritola Sarbojanin",
-      image: '../../Baghbazar.jpg',
-      address: "Another Address, Kolkata, West Bengal 700004",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3161906583355!2d88.36340287512765!3d22.60466487946882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02762db2c7e01f%3A0xa953c72eb79fcf18!2sBaghbazar%20Sarbojonin%20Durgotsav!5e0!3m2!1sen!2sin!4v1723274918545!5m2!1sen!2sin"
+      image: '../../Ahiritola.jpg',
+      address: "55, BK Paul Ave, Ahiritola, Beniatola, Kolkata, West Bengal 700005",
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.577922751587!2d88.35455067512731!3d22.594884279475814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02770078fe700f%3A0xbeb6e2bafe0a76e5!2sAhiritola%20Sarbojanin%20Durga%20Puja!5e0!3m2!1sen!2sin!4v1729840383810!5m2!1sen!2sin" 
     },
     {
       title: "Jagat Mukherjee Park",
-      image: '../../Baghbazar.jpg',
-      address: "Another Address, Kolkata, West Bengal 700004",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3161906583355!2d88.36340287512765!3d22.60466487946882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02762db2c7e01f%3A0xa953c72eb79fcf18!2sBaghbazar%20Sarbojonin%20Durgotsav!5e0!3m2!1sen!2sin!4v1723274918545!5m2!1sen!2sin"
+      image: '../../JagatMukherjee.jpg',
+      address: "1, Jatindra Mohan Ave, Sovabazar, Shobhabazar, Kolkata, West Bengal 700005",
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.454678038562!2d88.36346387512747!3d22.59949027947253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02763275b71687%3A0xd927b406f878b566!2sJagat%20Mukherjee%20Park!5e0!3m2!1sen!2sin!4v1729840230000!5m2!1sen!2sin"
     },
+    
     {
       title: "Kumartuli Sarbojanin",
-      image: '../../Baghbazar.jpg',
-      address: "Another Address, Kolkata, West Bengal 700004",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3161906583355!2d88.36340287512765!3d22.60466487946882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02762db2c7e01f%3A0xa953c72eb79fcf18!2sBaghbazar%20Sarbojonin%20Durgotsav!5e0!3m2!1sen!2sin!4v1723274918545!5m2!1sen!2sin"
+      image: '../../Kumartuli.jpg',
+      address: "SARBOJANIN DURGOTSAB COMMITTEE, 8B, Abhay Mitra St, Sovabazar, Kumartuli, Shobhabazar, Kolkata, West Bengal 700005",
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.468261276113!2d88.35889137512746!3d22.5989826794729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277cd636f29f3%3A0x76a486a0b70b04b7!2sKumartuli%20Park!5e0!3m2!1sen!2sin!4v1729840565778!5m2!1sen!2sin" 
     },
     {
       title: "Kashi Bose Lane",
-      image: '../../Baghbazar.jpg',
-      address: "Another Address, Kolkata, West Bengal 700004",
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3161906583355!2d88.36340287512765!3d22.60466487946882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02762db2c7e01f%3A0xa953c72eb79fcf18!2sBaghbazar%20Sarbojonin%20Durgotsav!5e0!3m2!1sen!2sin!4v1723274918545!5m2!1sen!2sin"
+      image: '../../KashiBose.jpeg',
+      address: "Kashi Bose Lane Durga Puja Samity 5/1, Kashi Bose Lane, Manicktala, Darjipara",
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.6845693451055!2d88.36634247512723!3d22.5908978794786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027636f4aba21b%3A0xd56a6b40b1520547!2sKashi%20Bose%20Lane%20Durga%20Puja%20Committee!5e0!3m2!1sen!2sin!4v1729840464460!5m2!1sen!2sin" 
     }   
     // Add more cards as needed
   ];
