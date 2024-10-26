@@ -7,11 +7,15 @@ import Pandals from './components/Pandals'
 import Spots from './components/Spots'
 import NorthSpots from './components/NorthSpots'
 import SouthSpots from './components/SouthSpots'
+import SignUp from './components/SignUp'
+import Login from './components/Login'
 
 const App = () => {
   return (
     <Routes>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/' element={<SignUp/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/home' element={<Home/>}/>
       <Route path='/gallery' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/pandals' element={<Pandals/>} />
