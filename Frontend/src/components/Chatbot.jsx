@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Box, Button, Grid, Input } from '@mui/material';
+import { Box, Button, Grid, Input, IconButton } from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Chatbot = () => {
 
@@ -37,17 +38,17 @@ const Chatbot = () => {
         }
       }
 
-    async function sendMessage(event) {
+      async function sendMessage(event) {
         event.preventDefault();
         setLoading(true);
     
         try {
-          const response = await fetch("http://localhost:5000/chat", {
+          const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/chat`, {  
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ userInput }),
+            body: JSON.stringify({ prompt: userInput }),  
           });
     
           const data = await response.json();
@@ -60,7 +61,8 @@ const Chatbot = () => {
         } finally {
           setLoading(false);
         }
-      }
+    }
+    
   return (
     <>
       <Box
@@ -76,8 +78,9 @@ const Chatbot = () => {
           position: 'absolute',
           top: position.y,
           left: position.x,
-          width: '8rem',
-          height: '8rem',
+          width: '6rem',
+          height: '6rem',
+          cursor: 'pointer'
           }}
           onMouseDown={handleMouseDown}
         />
@@ -86,30 +89,52 @@ const Chatbot = () => {
           id="chat-container"
           sx={{
           position: 'absolute',
-          top: position.y + 120, 
+          top: position.y + 80, 
           left: position.x,
-          width: '10rem',
-          height: '10rem',
+          width: '250px',
+          height: '300px',
           backgroundColor: 'white',
           border: '1px solid black',
           padding: 2,
-          alignItems: 'center',
-          justifyContent: 'center'
+          borderRadius: '8px',
+          boxShadow: '2px 2px 10px rgba(0,0,0,0.2)',
+          display: 'flex',
+          flexDirection: 'column'
           }}
         >
+          {/* Close Button */}
+          <IconButton 
+            sx={{ 
+              position: 'absolute', 
+              top: 5, 
+              right: 5, 
+              color: 'black' 
+            }} 
+            onClick={() => setShowBox(false)}
+          >
+            <CloseIcon />
+          </IconButton>
+
           <h6 sx={{ textAlign: 'center', marginBottom: '20px', color: '#053245' }}>
             Tell me How Can I help you today??
           </h6>
           <Grid
-            id="chat-history"        
+            id="chat-history"   
+            sx={{ flexGrow: 1, overflowY: 'auto', paddingBottom: '10px' }}     
           >
           {chatHistory.map((entry, index) => (
-              <Grid key={index}  className={`${entry.type}-message`}>
+              <Grid key={index} sx={{
+                backgroundColor: entry.type === 'user' ? '#d1ecf1' : '#f8d7da',
+                padding: '5px',
+                borderRadius: '5px',
+                marginBottom: '5px',
+                textAlign: entry.type === 'user' ? 'right' : 'left'
+              }}>
               {entry.message}
               </Grid>
           ))}
           </Grid>
-          <form id="chat-form" onSubmit={sendMessage} sx={{ display: 'flex' }}>
+          <form id="chat-form" onSubmit={sendMessage} style={{ display: 'flex' }}>
           <Input
             type="text"
             id="user-input"
@@ -117,26 +142,28 @@ const Chatbot = () => {
             value={userInput}
             onChange={e => setUserInput(e.target.value)}
             sx={{
-            flexGrow: '1',
-            border: '1px solid #ccc',
-            borderRadius: '5px',
+              flexGrow: 1,
+              border: '1px solid #ccc',
+              borderRadius: '5px',
+              padding: '5px'
             }}
           />
         <Button
           type="submit"
           disabled={loading}
           sx={{
-          backgroundColor: '#0e88bd',
-          color: 'white',
-          borderRadius: '5px',
-          cursor: 'pointer',
-          '&:disabled': {
+            backgroundColor: '#0e88bd',
+            color: 'white',
+            borderRadius: '5px',
+            cursor: 'pointer',
+            marginLeft: '5px',
+            '&:disabled': {
               backgroundColor: '#ccc',
               cursor: 'not-allowed',
           },
           }}
         >
-          {loading ? 'Sending...' : 'Send'}
+          {loading ? '...' : 'Send'}
         </Button>
         </form>
         </Box>
@@ -146,4 +173,4 @@ const Chatbot = () => {
   )
 }
 
-export default Chatbot
+export default Chatbot;
