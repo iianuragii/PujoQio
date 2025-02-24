@@ -1,21 +1,17 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
-import Contact from './components/Contact'
-import About from './components/Gallery'
-import Pandals from './components/Pandals'
-import Spots from './components/Spots'
-import NorthSpots from './components/NorthSpots'
-import SouthSpots from './components/SouthSpots'
-import SignUp from './components/SignUp'
-import Login from './components/Login'
+import Home from './Components/Home'
+import Contact from './Components/Contact'
+import About from './Components/Gallery'
+import Pandals from './Components/Pandals'
+import Spots from './Components/Spots'
+import NorthSpots from './Components/NorthSpots'
+import SouthSpots from './Components/SouthSpots'
 
 const App = () => {
   return (
     <Routes>
-      <Route path='/' element={<SignUp/>}/>
-      <Route path='/login' element={<Login/>}/>
-      <Route path='/home' element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/gallery' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/pandals' element={<Pandals/>} />
